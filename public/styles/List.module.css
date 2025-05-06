@@ -1,0 +1,53 @@
+.listdiv{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.button{
+
+    width: 100px;
+    height: 30px;
+    background-color: #c70202;
+    color: #f1f1f1;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+.subdiv{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.subdiv > p{
+
+    width: 200px;
+
+}
+
+.message{
+
+    font-size: 17px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #2d7ac7;
+    padding: 10px 0px;
+    color: #f1f1f1;
+
+}
