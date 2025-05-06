@@ -8,23 +8,7 @@ function Todosection({ heading }) {
 
     // let date = new Date().toLocaleDateString();
 
-    const [listItems, setListItems] = useState([
-    //   {
-    //     name: "Eat Rice",
-    //     date: `${date}`,
-    //   },
-
-    //   {
-    //     name: "Go To School",
-    //     date: `${date}`,
-    //   },
-
-    //   {
-    //     name: "Come Back To Home",
-    //     date: `${date}`,
-    //     },
-      
-    ]);
+    const [listItems, setListItems] = useState([]);
 
     function handelTodoItems (newItemName, newItemDate) {
 
